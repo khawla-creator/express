@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+body {
+                    font-family: 'Style Script', cursive;
+                    text-align: center;
+                    align-items: center;
+}
+#nav-log {
+                    display: flex;
+                    align-items: center;
+                    color : #172a00;
+                    font-size:2em;
+                    font-weight: bolder;
+}
+
+#nav-link {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-right:20px ;
+}
+
+#nav-link a {
+                    padding: 10px;
+                    font-size: 1.8em;
+                    font-weight: bolder;
+                    color:green;
+                    text-decoration: none;
+                    margin-right: 20px;
+}
+
+#nav-link a:hover {
+                    
+                    cursor: pointer;
+                    border-bottom: 4px solid #fcd109;
+}
+
+
+#navbar {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    box-shadow: 0px 1px 10px #e2e3e9;             
+}
+
+#main {
+                    background-image: url("./assets/opacity.png");
+}
+
+#main h1 {
+                    padding-top: 50px;
+}
+
+#main-home {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding:20px;
+                    margin: 40px;
+}
+
+#main-home h1 {
+                    width: 30vw;
+                    font-size: 2.5em;
+                    padding-right:40px;
+}
+
+#card {
+                    display:flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    font-size:1.2em ;
+                    font-weight: bolder;
+                    width: 200px;
+                    background-color:rgba(252,244,117,0.9) ;
+                    border-radius: 10px;
+                    padding:20px;
+                    margin:30px;
+                    
+}
+
+#card img {
+                    border-radius: 10px;
+}
+
+#card-span {
+                    display: flex;
+                    flex-direction: column;
+                    line-height: 35px;
+                    margin-top: 10px;
+                    
+}
+
+#card-span button {
+                    padding: 5px 10px 5px 10px;
+                    width: 8rem;
+                    align-self: center;
+                    font-family:  cursive;
+                    font-weight: bolder;
+                    color: white;
+                    border:none;
+                    border-radius: 10px;
+                    background-color:#3fd30eb4 ;
+                    cursor: pointer;
+}
+
+#main-card{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    padding: 40px;
+                    
+}
+
+#title-contact {
+                    background-image: url("./assets/opacity.png");
+                    padding:20px;
+}
+
+#main-form {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content:flex-start;
+                    width: 350px; 
+                    padding-left:50px ;
+}
+
+#main-form label {
+                    font-size: 1.5em;
+                    font-weight: bolder;
+                    padding-right: 20px;
+                    text-align: left;
+}
+
+#main-form input {
+                    font-family: 'Style Script', cursive; ;
+                    font-size: 2em;
+                    font-weight: bolder;
+                    margin:5px;
+                    text-align: left;
+                    border:none;
+                    background-color: #ebebf4;
+                    border-radius: 10px;
+}
+
+#main-form textarea {
+                    font-family: 'Style Script', cursive; ;
+                    font-size: 1em;
+                    font-weight: bolder;
+                    margin:5px;
+                    height: 100px;
+                    width: 95%;
+                    border:none;
+                    background-color: #ebebf4;
+                    border-radius: 10px;
+}
+
+#form-contact{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-top: 1px solid green;
+                    border-bottom: 1px solid green;
+                    padding: 40px;
+}
+#form-adresse{
+                    background-color: rgba(252,244,117,0.9);
+                    padding: 115px 20px ;
+                    border-radius: 10px;
+}
+
