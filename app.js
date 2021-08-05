@@ -14,7 +14,7 @@ const toogle =(req,res,next)=>{
 
 
 app.use(toogle)
-app.use(express.static('src'))
+app.use(express.static('src'))  
 app.use(express.static('closeApp'))
 
 
