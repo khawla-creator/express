@@ -2,17 +2,20 @@ const express = require ('express');
 const app=express(); 
 
 
-// const toogle =(req,res,nxt)=>{
-//                     const date= new Date()
-//                     if (date.getDate()===0 || date.getDate()===6 || date.getTime <9 || date.getTime >17){return 
-//                     req.send(console.log(''))};
-//                     next();
-// }
+const toogle =(req,res,next)=>{
+                    const date= new Date()
+   if (date.getDay()===0 || date.getDay()===6 || date.getHours() < 9 || date.getHours() > 17){
+                     
+                   return res.sendFile(__dirname+'/closeApp/close.html')
+                  }
+                    next();
+}
 
 
 
-
+app.use(toogle)
 app.use(express.static('src'))
+app.use(express.static('closeApp'))
 
 
 const port=5000
